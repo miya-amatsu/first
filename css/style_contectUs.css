@@ -1,0 +1,284 @@
+
+/* 第二屏 */
+
+.contactUs .zh{
+    font-size: 22px;
+}
+/* .contactUs_title_rectangle::before{
+    content: "";
+    margin: 10px auto 30px;
+    width: 800px;
+    height: 3px;
+    background-image: linear-gradient(to right,transparent 2%, #f16a6a,transparent 98%);
+    display: block;
+} */
+
+/* .container_title_box .zh{
+    padding: 3px  0 0px 8px ;
+    margin: 0;
+    font-weight: 300;
+    font-size: 16px;
+    color: #fff;
+}
+.container_title_box .eng{
+    padding: 0px  0 3px 8px ;
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+} */
+
+.contactUs_contaner img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+}
+.contactUs h3{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    
+}
+
+/* 門市服務據點 */
+
+/* .wrap_rectangle{
+    margin: 10px auto 30px;
+    width: 800px;
+    height: 3px;
+    background-image: linear-gradient(to right,transparent 2%, #f16a6a,transparent 98%);
+    display: block;
+} */
+.contactUs_contaner_left{
+    width: 400px;
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 50px;
+}
+.store_service{
+    line-height: 24px;
+    font-size: 14px;
+    text-align: left;
+    display: inline-block;
+}
+.aboutmap-text{
+    display: inline-block;
+}
+.aboutmap-text fa{
+    padding: 10px;
+    height: 10px;
+}
+
+
+/* 第一屏 */
+.container{
+    padding: 150px 0px 30px;
+    margin: 0 auto;
+    width: 960px;
+}
+/* .banner_rectangle{
+    box-shadow:0 0 5px #fff;
+    background-color: rgba(255, 255, 255, .9);
+    width: 550px;
+    padding: 50px;
+    display: inline-block;
+    line-height: 30px;
+} */
+.title_rectangle_box{
+    font-size: 0;
+    display: inline-block;
+    vertical-align: middle;
+}
+/* .contectUS_banner .rectangle{
+    margin: 0 10px 20px 0;
+    width: 3px;
+    height: 55px;
+    border-left: 3px solid#f16a6a;
+    display: inline-block;
+    vertical-align: middle; 
+} */
+/* .contectUS_banner h2{
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 30px;
+    font-size: 22px;
+    color: #f16a6a;
+    margin: 0 0 20px 0;
+} */
+/* .contectUS_banner p{
+    line-height: 25px;
+    color: #f16a6a;
+    font-size: 14px;
+    margin: 0 0 20px 0;
+} */
+/* 第二屏 */
+/* .background{
+    margin: 0 auto;
+    width: 1200px;
+    background-image: url(img/home/bgimg.png);
+} */
+/* .contactUs{
+    text-align: center;
+    width: 960px;
+    margin: 0 auto;
+    padding: 30px;
+} */
+/* .contactUs .zh{
+    font-size: 22px;
+} */
+.contactUs_title_rectangle::before{
+    content: "";
+    margin: 10px auto 30px;
+    width: 800px;
+    height: 3px;
+    background-image: linear-gradient(to right,transparent 2%, #f16a6a,transparent 98%);
+    display: block;
+}
+.contactUs_wrap{
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, .8);
+    margin: 50px 0 70px 0;
+    text-align: left; 
+    padding: 20px;
+}
+.contactUs_container_right{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.store_photo{
+    width: 45%;
+    margin: 0 2%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    
+    /* display: inline-block; */
+    /* vertical-align: top; */
+}
+.store_photo img{
+    width: 100%;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    border: 10px solid #fff;
+}
+.contactUs_container{
+    width: 50%;
+    /* display: inline-block;
+    vertical-align: top; */
+    margin: 0 0 0 2%;
+}
+.contactUs_container_title{
+    background-image:linear-gradient(to right,#ff9696 90% ,transparent 100%);
+    width: 60%;
+    /* padding: 3px  0 3px 8px ; */
+}
+.container_title_box .zh,.container_title_box .eng{
+    display: block;
+    font-family: 'Noto Sans TC', sans-serif;
+    padding: 5px ;
+    /* margin: 0; */
+    /* font-weight: 300; */
+    font-size: 18px;
+    color: #fff;
+ }
+ /* .container_title_box h3{
+     padding: 5px 0 5px 20px;
+ } */
+/*.container_title_box .eng{
+    padding: 0px  0 3px 8px ;
+    margin: 0;
+    font-weight: 300;
+    font-size: 12px;
+    color: #fff;
+} */
+.container_content_p{
+    margin: 30px 0;
+    line-height: 24px;
+    font-size: 14px;
+    display: inline-block;
+}
+.contactUs_contaner img{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+}
+.contactUs h3{
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    
+}
+
+/* ========================手機======================== */
+
+@media screen and (max-width: 767px){
+    .contactUs_container_title{
+        background-image:linear-gradient(to right,#ff9696 90% ,transparent 100%);
+        width: 40%;
+        /* padding: 3px  0 3px 8px ; */
+    }
+    .container_title_box .zh,.container_title_box .eng{
+        font-family: 'Noto Sans TC', sans-serif;
+        padding: 4px 0  ;
+        /* margin: 0; */
+        /* font-weight: 300; */
+        font-size: 16px;
+        color: #fff;
+     }
+     .container_title_box h3{
+         padding: 10px;
+     }
+    
+    /* ==================== 手機banner ====================  */
+    
+    /* .banner{
+        opacity: 0;
+    } */
+    /* .banner_main{
+    margin-top: 90px;
+    border: 1px solid #f00;
+    background-image: url("../images/brand/store-visul-0.jpg");
+    background-size:100%;
+    } */
+    /* ==================== 手機 內容====================  */
+    .store_photo{
+        width: 100%;
+    }
+    .contactUs_container{
+        width: 100%;
+    }
+    .contactUs_wrap{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(255, 255, 255, .8);
+        margin: 50px 0 70px 0;
+        text-align: left; 
+        padding: 20px;
+        position: relative;
+    }
+    .contactUs_container_title{
+        position: absolute;
+        top: -40px;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+
+        background-image:linear-gradient(90deg ,transparent 0%,#ff9696d9 20% ,#ff9696d9 80% ,transparent 100%);
+        width: 80%;
+        padding: 0 ;
+    }
+}
+
+/* ========================平板直式======================== */
+
+@media screen and (min-width: 768px){
+   
+    .col-md-12{ width: 100%;}
+}
+
+
+
+
+

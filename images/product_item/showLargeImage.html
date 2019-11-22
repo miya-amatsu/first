@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>點小圖秀大圖</title>
+</head>
+<style>
+   .image{
+        width: 10%;
+    }
+</style>
+
+<body>
+<div style="width:50%;height:50%;">
+    <img  id="large" src="big/Bear_big_01.jpg">
+</div>
+<div>
+    <img src="small/Bear_small_SP_01.jpg" class="image" />
+    <img src="small/Bear_small_SP_02.jpg" class="image" />
+    <img src="small/Bear_small_SP_03.jpg" class="image" />
+    <img src="small/Bear_small_SP_04.jpg" class="image" />
+</div>
+<script>
+function showLarge(e){
+    var now = e.target;
+    // alert(now.src);
+    var change = now.src.replace("small","big").replace("small","big").replace("_SP","");
+    // console.log(change);
+    document.getElementById("large").src = change;
+}
+
+function init(){
+    var img = document.getElementsByClassName("image");
+    for( let i=0 ; i<img.length ; i++ ){
+        img[i].onclick = showLarge;
+    }
+}
+window.onload = init;
+</script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+        <div id="div1">The text above has been created dynamically.</div>
+</body>
+<script>
+var num=2;
+()=>{
+    v
+}
+var home={
+    father:'tom',
+    checkLock:function(){
+        console.log('lock');
+    }
+}
+home.checkLock();
+let fn = function(){
+  console.log(this.constructor.name);  // Object(data)
+  setTimeout(function(){
+    console.log(this.constructor.name) // Window
+  },100);
+}
+
+// 箭頭函式 Arrow function
+let fn_arr = function(){
+  console.log(this.constructor.name);  // Object(data)
+  setTimeout(() => {
+    console.log(this.constructor.name) // Object(data)
+  },100);
+}
+
+let id = 21;
+let data = {
+  id: 21
+}
+
+fn.call(data);     
+fn_arr.call(data); 
+
+var obj={
+    str:'hello',
+    Str:'hi',
+}
+console.log("obj.str:"+obj.str);
+console.log(123);
+
+</script>
+</html>

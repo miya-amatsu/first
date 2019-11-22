@@ -1,0 +1,247 @@
+.title_box{
+    padding: 0;
+    margin: 0;
+}
+.product_item{
+    margin-top: 120px;
+}
+/* ========================product========================  */
+.group_content{
+    display: flex;
+    flex-wrap: wrap;
+}
+.item.item_row_right{
+    width: 60%;
+}
+
+.pic{
+    display: flex;
+    width: 100%;
+}
+/* ======================================================== */
+
+.classic .text .shop_icon {
+    margin: 10px 0 20px 0;
+    background-color: #fef6f0;
+    display: block;
+    padding: 1px 0;
+}
+.shop_icon {
+    margin: 5px 0;
+    border: 1px solid #825b4089;
+    /* box-shadow: 1px 1px 2px #99542389; */
+    text-align: center;
+    border-radius: 5px;
+    /* padding: 10px; */
+    width: 100%;
+    height: 30px;
+    vertical-align: middle;
+}
+.product_item{
+    padding-bottom: 120px;
+}
+.text{
+    /* border: 1px solid #f00; */
+    margin: 10%;
+    line-height: 30px;
+}
+.item .pic{
+    /* border: 1px solid #f00; */
+    margin: 2% 2% 2% 0;
+}
+.item .pic .image{
+    /* border: 1px solid #f00; */
+    margin: 0 2%;
+}
+.notes{
+    font-size: 24px;
+    padding: 20px 0 10px;
+}
+
+
+/* ========================以上為共用======================== */
+
+@media screen and (max-width: 767px){
+    .group_content{
+        width: 95%;
+    }
+    .item .pic{
+        /* border: 1px solid #f00; */
+        margin:  2% 0;
+    }
+    .text{
+        /* border: 1px solid #f00; */
+        margin: 10%;
+        line-height: 30px;
+    }
+
+
+    /* ==================== */
+    .product_list{
+        width: 100%;
+    }
+    .product_list_group{
+        width: 100%;
+    }
+    /* .product_list_group{
+        中向致中
+    }*/
+    .item{
+        width: 100%;
+    }
+    .group_content {
+        width: 100%;
+        display: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        
+        align-content: center;
+        margin: auto;
+        padding: 20px 0;
+    }
+     .product_list .title {
+        width: 60%;
+        /* border: 1px solid #000; */
+        background-image: linear-gradient(to right,#ff9696 90% ,transparent 100%);
+    }
+    .product_item .item{
+        width: 100%;
+        /* padding: 10px 0 21px; */
+        border-bottom: 3px dotted #ff9d00;
+        margin: 0 10px 10px;
+    }
+    .title h2 {
+        color: #fff;
+        font-size: 18px;
+        vertical-align: middle;
+        /* outline: #f00 1px solid; */
+    }
+    .item_row_left .text,.productNotes .text{
+        line-height: 1.8;
+        margin: 0 5% 5%;
+    }
+    .notes{
+        font-size: 22px;
+        padding: 20px 0 10px;
+    }
+    .item_row_left h3{
+    font-size: 28px;
+    padding: 5px 0 10px;
+    }
+    .item_row_left .prd_price{
+        display: block;
+        color: rgb(190, 32, 32);
+    font-size: 20px;
+    padding: 2px 0 8px;
+    }
+    .product_item {
+        padding-bottom: 0;}
+}
+
+/* ========================平板直式======================== */
+
+@media screen and (min-width: 768px){
+      /* ==================== 平板product_list ====================  */
+    .product_list{
+        width: 100%;
+    }
+    .title h2 {
+        color: #fff;
+        padding: 2px;
+        font-size: 18px;
+        vertical-align: middle;
+        /* outline: #f00 1px solid; */
+    }
+    .title h2{
+        font-size: 20px;
+        vertical-align: middle;
+        /* outline: #f00 1px solid; */
+    }
+    .group_content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+/* =========================================== */
+    .item_row_right .picBig{
+        padding: 0;
+    }
+    .item.item_row_right {
+        width: 50%;
+    }
+    .product_list .item {
+        /* margin: 20px 0 0px;
+        width: 100%; */
+        padding:  0;
+    }
+    .item .pic {
+        /* border: 1px solid #f00; */
+        margin: 0 2% 2% 0;
+    }
+/* =========================================== */
+.item.item_row_left{
+    width: 30%;
+}
+.item_row_left .text{
+    line-height: 1.8;
+}
+
+.item_row_left h3{
+font-size: 28px;
+padding: 10px 0 30px;
+}
+.item_row_left .prd_price{
+    display: block;
+    color: rgb(190, 32, 32);
+font-size: 20px;
+padding: 10px 0 20px;
+}
+    .text{
+        margin: 0 10% 0;
+    }
+    .title h3 {
+        color: #fff;
+        font-size: 18px;
+        vertical-align: middle;
+    }
+    .productNotes .text{
+        margin: 0 0 10% 0;
+    }
+    .h_collect .pro_price{
+        font-size: 13px;
+        padding: 5px 0 5px;
+    }
+    .h_collect .tex{
+        /* position: absolute; */
+        font-size: 14px;
+        padding: 10px 0 5px;
+        line-height: 16px;
+    }
+    .h_collect .text{
+        position: relative;   
+    }
+    .h_collect .prdName{
+        line-height: 20px;
+    }
+    .h_collect  .special_title {
+        
+        padding: 5px 0 10px;
+        height: 30px;
+        display: inline-block;
+        font-size: 12px;
+        color: rgb(190, 32, 32);
+    }
+    .h_collect .pro_price{
+        position: absolute;
+        bottom: 0;
+    }
+        
+    .product_item .shop_icon{
+        margin: 10px 0 20px 0;
+        background-color: #fef6f0;
+        display: block;
+        padding: 1px 0;
+    }
+
+}
